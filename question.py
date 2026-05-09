@@ -15,3 +15,9 @@ n = int(input())
 
 for i in range(n,0,-1):
   print(i*2)
+
+n = int(input())
+for i in range((n*2),0,-2):
+  print(i)
+
+#PRint the n number of the even natural numbers
