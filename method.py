@@ -31,3 +31,16 @@ B.f2(5,10)
 obj1=B()
 obj1.f1() #static method call using instance
 obj1.f2(4,5)
+
+class c :
+
+  @classmethod
+  def f1(cls,x):
+    cls.x = x
+    print("HEllow orld")
+
+obj  = c()
+c.f1(4) #no need to pass clas objj implicity pass
+obj.f1(5) # also same here but send class obj  implicity not self.
+print(c.__dict__) # to prove that the x is made iin class obj not the instance obj
+print(obj.__dict__)
