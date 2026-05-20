@@ -54,3 +54,13 @@ def cal():
   print("Upper ",up,"Lower",low)
 
 cal()
+
+class Node:
+  def func(self,data):
+    self.data = data
+    self.next = None
+
+t1 = Node()
+t2 = Node()
+
+t1.next = t2
