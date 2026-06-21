@@ -15,7 +15,6 @@
 #   print(elem)
 
 
-print("Enter elements in seperated by comma,")
 # s1 = input()
 # l1 = input().split(',')
 
