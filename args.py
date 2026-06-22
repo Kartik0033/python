@@ -9,7 +9,8 @@ c =9
 
 fun(a,b,c)
 
-def newfun(**kwargs): # use when dictionary return
+def newfun(*args,**kwargs): # use when dictionary return
+  print(type(args),type(kwargs))
   print(kwargs)
   for i in kwargs:
     print(i,kwargs[i])
